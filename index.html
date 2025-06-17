@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatora geden yol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    
+<!-- 
+    
+    <input type="checkbox" id="myCheckBox">
+    <label for="myCheckBox" id="myLabel">Abone</label><br><br>
+
+    <input type="radio" id="myVisa" name="payment">
+    <label for="myVisa" id="visaBtn">Visa</label><br>
+
+    <input type="radio"  id="myMaster" name="payment">
+    <label for="myMaster" id="masterBtn">Master</label><br>
+
+    <input type="radio" id="myPaypal" name="payment">
+    <label for="myPaypal" id="paypalBtn">Paypal</label><br><br>
+
+
+    <button type="submit" id="myEnter">Enter</button><br>
+    <p id="aboneResult"></p><br>
+    <p id="paymentResult"></p>   
+
+-->
+
+<!--
+<input type="checkbox" id="myCheckBox" >
+<label for="myCheckBox" id="myLabel"></label>
+<input type="text" id="myInput"> -->
+
+
+
+
+<!-- 
+
+<input type="number" id="myInput">
+
+<button type="button" class="num" id="zero">0</button>
+<button type="button" class="num" id="one">1</button>
+<button type="button" class="num" id="two">2</button>
+<button type="button" class="num" id="three">3</button>
+<button type="button" class="num" id="four">4</button>
+<button type="button" class="num" id="five">5</button>
+<button type="button" class="num" id="six">6</button>
+<button type="button" class="num" id="seven">7</button>
+<button type="button" class="num" id="eight">8</button>
+<button type="button" class="num" id="nine">9</button>
+<button type="button" class="num" id="comma">,</button>
+
+
+<button type="button" class="operation" id="myPlus">+</button>
+<button type="button" class="operation" id="myMinus">-</button>
+<button type="button" class="operation" id="myMultiplication">*</button>
+<button type="button" class="operation" id="myDivision">/</button>
+<button type="button" class="operation" id="myEqual">=</button>
+
+-->
+
+
+
+    <div id="Calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('/')" class="operation">/</button>
+            
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('*')" class="operation">*</button>
+            
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('+')" class="operation">+</button>
+            
+            <button onclick="appendToDisplay(',')">,</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendToDisplay('-')" class="operation">-</button>
+            
+            <button onclick="clearAll()" class="clearr">C</button>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
